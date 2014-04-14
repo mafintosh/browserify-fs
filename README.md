@@ -1,6 +1,6 @@
 # browserify-fs
 
-[fs](http://nodejs.org/api/fs.html) for the browser using [level-filesystem](https://github.com/mafintosh/level-filesystem) and [browserify](https://github.com/substack/node-browserify)
+[fs](http://nodejs.org/api/fs.html) for the browser using [level-filesystem](https://github.com/mafintosh/level-filesystem), [level.js](https://github.com/maxogden/level.js) and [browserify](https://github.com/substack/node-browserify)
 
 	npm install browserify-fs
 
@@ -26,7 +26,7 @@ You can also make browserify replace `require('fs')` with browserify-fs using
 
 Using the replacement you can browserify modules like [tar-fs](https://github.com/mafintosh/tar-fs) and [mkdirp](https://github.com/substack/node-mkdirp)!
 
-Checkout [level-filesystem](https://github.com/mafintosh/level-filesystem) to see which browsers are supported
+Checkout [level-filesystem](https://github.com/mafintosh/level-filesystem) and [level.js](https://github.com/maxogden/level.js) to see which browsers are supported
 
 ## License
 
