@@ -24,7 +24,7 @@ You can also make browserify replace `require('fs')` with browserify-fs using
 
 	browserify -r fs:browserify-fs
 
-Using the replacement you browserify modules like [tar-fs](https://github.com/mafintosh/tar-fs) and [mkdirp](https://github.com/substack/node-mkdirp)!
+Using the replacement you can browserify modules like [tar-fs](https://github.com/mafintosh/tar-fs) and [mkdirp](https://github.com/substack/node-mkdirp)!
 
 Checkout [level-filesystem](https://github.com/mafintosh/level-filesystem) to see which browsers are supported
 
