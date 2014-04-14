@@ -1,6 +1,6 @@
 {
   "name": "browserify-fs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "fs for the browser using level-filesystem and browserify",
   "repository": "mafintosh/browserify-fs",
   "keywords": [
