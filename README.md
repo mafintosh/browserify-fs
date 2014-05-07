@@ -4,6 +4,8 @@
 
 	npm install browserify-fs
 
+![dat](http://img.shields.io/badge/Development%20sponsored%20by-dat-green.svg?style=flat)
+
 ## Usage
 
 To use simply require it and use it as you would fs
