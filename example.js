@@ -1,3 +1,5 @@
+
+// to write require('fs'), add "browser" mapping in package.json
 var fs = require('react-native-level-fs');
 
 fs.mkdir('/home', function() {
