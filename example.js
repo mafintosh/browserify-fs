@@ -1,4 +1,4 @@
-var fs = require('browserify-fs');
+var fs = require('react-native-level-fs');
 
 fs.mkdir('/home', function() {
 	fs.writeFile('/home/hello-world.txt', 'Hello world!\n', function() {
