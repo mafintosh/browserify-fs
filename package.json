@@ -20,6 +20,6 @@
     "levelup": "^0.18.2"
   },
   "peerDependencies": {
-    "react-native": "^0.4.1"
+    "react-native": ">=0.4.1 <1.0.0"
   }
 }
