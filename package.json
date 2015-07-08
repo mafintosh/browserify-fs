@@ -1,6 +1,6 @@
 {
   "name": "react-native-level-fs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fs for react-native using level-filesystem and asyncstorage-down",
   "repository": {
     "type": "git",
