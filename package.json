@@ -15,7 +15,7 @@
     "filesystem"
   ],
   "dependencies": {
-    "asyncstorage-down": "^0.0.3",
+    "asyncstorage-down": "^1.0.0",
     "level-filesystem": "^1.0.1",
     "levelup": "^0.18.2"
   },
