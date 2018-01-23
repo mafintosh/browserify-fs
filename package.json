@@ -12,6 +12,6 @@
   "dependencies": {
     "level-filesystem": "^1.0.1",
     "level-js": "^2.1.3",
-    "levelup": "^2.0.1"
+    "levelup": "^0.18.2"
   }
 }
