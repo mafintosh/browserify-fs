@@ -24,7 +24,7 @@ fs.mkdir('/home', function() {
 
 You can also make browserify replace `require('fs')` with browserify-fs using
 
-	browserify -r fs:browserify-fs
+	browserify -r browserify-fs:fs
 
 Using the replacement you can browserify modules like [tar-fs](https://github.com/mafintosh/tar-fs) and [mkdirp](https://github.com/substack/node-mkdirp)!
 
