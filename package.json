@@ -19,6 +19,6 @@
     "levelup": "^0.18.2"
   },
   "peerDependencies": {
-    "asyncstorage-down": "^3.0.0"
+    "asyncstorage-down": ">=3.0.0 <5.0.0"
   }
 }
