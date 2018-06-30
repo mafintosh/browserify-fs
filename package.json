@@ -15,7 +15,7 @@
     "levelup": "^0.18.2"
   },
   "scripts": {
-    "test": "karma start"
+    "test": "karma start --single-run"
   },
   "devDependencies": {
     "browserify": "^16.2.2",
