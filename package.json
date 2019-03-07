@@ -1,6 +1,7 @@
 {
   "name": "browserify-fs",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "fs for the browser using level-filesystem and browserify",
   "repository": "mafintosh/browserify-fs",
   "keywords": [
