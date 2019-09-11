@@ -1,6 +1,6 @@
 {
   "name": "react-native-level-fs",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "fs for react-native using level-filesystem and asyncstorage-down",
   "repository": {
     "type": "git",
@@ -15,8 +15,8 @@
     "filesystem"
   ],
   "dependencies": {
-    "level-filesystem": "^1.0.1",
-    "levelup": "^0.18.2"
+    "level-filesystem": "^1.2.0",
+    "levelup": "^4.18.2"
   },
   "peerDependencies": {
     "asyncstorage-down": ">=3.0.0 <5.0.0"
