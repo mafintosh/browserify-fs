@@ -27,7 +27,13 @@
   ],
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "jest": {
+    "setupFiles": [
+      "fake-indexeddb/auto"
+    ]
   },
   "dependencies": {
     "level-filesystem": "^1.0.1",
@@ -41,6 +47,9 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "fake-indexeddb": "^2.1.1",
+    "jest": "^24.9.0",
+    "pify": "^4.0.1"
   }
 }
