@@ -1,6 +1,8 @@
-var leveljs = require('level-js');
-var levelup = require('levelup');
-var fs = require('level-filesystem');
+'use strict';
 
-var db = levelup('level-filesystem', { db: leveljs });
+const fs = require('level-filesystem');
+const leveljs = require('level-js');
+const levelup = require('levelup');
+
+const db = levelup('level-filesystem', { db: leveljs });
 module.exports = fs(db);
