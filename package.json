@@ -8,7 +8,24 @@
     "fs",
     "level"
   ],
-  "repository": "mafintosh/browserify-fs",
+  "homepage": "https://github.com/mafintosh/browserify-fs",
+  "bugs": {
+    "url": "https://github.com/mafintosh/browserify-fs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mafintosh/browserify-fs.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mathias Buus",
+    "email": "mathiasbuus@gmail.com",
+    "url": "https://github.com/mafintosh"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
   "scripts": {
     "lint": "eslint ."
   },
