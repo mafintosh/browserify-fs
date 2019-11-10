@@ -1,6 +1,6 @@
 # browserify-fs
 
-[fs](http://nodejs.org/api/fs.html) for the browser using
+[fs](https://nodejs.org/api/fs.html) for the browser using
 [level-filesystem](https://github.com/mafintosh/level-filesystem),
 [level.js](https://github.com/maxogden/level.js) and 
 [browserify](https://github.com/substack/node-browserify)
@@ -14,11 +14,11 @@ npm install browserify-fs
 To use simply require it and use it as you would fs
 
 ```js
-var fs = require("browserify-fs");
+var fs = require('browserify-fs');
 
-fs.mkdir("/home", function () {
-  fs.writeFile("/home/hello-world.txt", "Hello world!\n", function () {
-    fs.readFile("/home/hello-world.txt", "utf-8", function (err, data) {
+fs.mkdir('/home', function () {
+  fs.writeFile('/home/hello-world.txt', 'Hello world!\n', function () {
+    fs.readFile('/home/hello-world.txt', 'utf-8', function (err, data) {
       console.log(data);
     });
   });
